@@ -11,3 +11,6 @@ in the documentation.
 
 * The `Get via NuGet` menu targets directly the NuGet page. It would
   be nicer to have a doc page with some instructions.
+
+### Properties
+* `RevRevIsOriginal` needn't be public.

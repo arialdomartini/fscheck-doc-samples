@@ -4,8 +4,10 @@ open Expecto
 
 [<Tests>]
 let tests =
-  testList "samples" [
-    testCase "universe exists (╭ರᴥ•́)" <| fun _ ->
-      let subject = true
-      Expect.isTrue subject "I compute, therefore I am."
+  testList "Chapter Properties" [
+    
+    let revRevIsOrig (xs:list<int>) = List.rev(List.rev xs) = xs
+    
+    testProperty "Reverse of reverse of a list is the original list" <|
+      revRevIsOrig
   ]

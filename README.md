@@ -14,3 +14,12 @@ in the documentation.
 
 ### Properties
 * `RevRevIsOriginal` needn't be public.
+* Missing `:` before code snippets.
+* Better use `;` instead of "," in "signature, we currently".
+* About "It's very simple to fix any types anyway simply by adding
+  some type annotations." maybe an example would help.
+* `Prop` module should use verbatim font.
+* Some code example contain`'Check.Quick insertKeepsOrder`, some
+  don't.
+* I think an initial setup allowing people to run the code samples
+  would be useful.

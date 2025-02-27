@@ -23,3 +23,6 @@ in the documentation.
   don't.
 * I think an initial setup allowing people to run the code samples
   would be useful.
+* `let insertKeepsOrder (x:int) (xs: int list) = ordered xs ==>
+  ordered (insert x xs)` is problematic: FsCheck exhaustes the
+  attempts so the property always fails.

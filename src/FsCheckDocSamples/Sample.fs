@@ -21,10 +21,10 @@ let tests =
     testProperty "Reverse of reverse of a list is the original list" <|
       revRevIsOrig
 
-    let insertKeepsOrder (x:int) (xs: int list) = ordered xs ==> ordered (insert x xs)
-    
-    testProperty "Conditional property" <|
-        skiptest "Fails because Arguments exhaust" insertKeepsOrder
+    // let insertKeepsOrder (x:int) (xs: int list) = ordered xs ==> ordered (insert x xs)
+    //
+    // skiptest "Conditional property" <|
+    //      insertKeepsOrder
      
     let isEven n = n % 2 = 0
     let isOdd = not << isEven
